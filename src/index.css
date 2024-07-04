@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(3, 1, 21);
+  color: white;
+}
+.loadingline {
+  background: linear-gradient(to right, #1119d4, #03b5f4);
+  box-shadow: 0.2px 1px 10px #1119d4;
+}
+.box1 {
+  background: linear-gradient(to bottom right, #1119d4, #03b5f4);
+  box-shadow: 10px 1px 100px #1119d4;
+}
+.mousemove {
+  background: linear-gradient(to bottom right, #1119d4, #03b5f4);
+  box-shadow: 70px 1px 100px #1119d4;
+}
+.submit {
+  background: linear-gradient(to bottom right, #1119d4, #03b5f4);
+  box-shadow: 1px 1px 100px #1119d4;
+  transition-duration: 1s;
+}
+
+.submit:hover {
+  background: linear-gradient(to bottom right, #03b5f4, #1119d4);
+  box-shadow: 1px 1px 100px #1119d4;
+}
+.logout {
+  background: linear-gradient(to bottom right, #f51111, #ff4d1b, #f51111);
+  box-shadow: 1px 1px 100px #d41111;
+  transition-duration: 1s;
+}
+.project-card {
+  border: 1px solid #1117d455;
+  box-shadow: 0.5px 1px 30px #03b4f440;
+  transition-duration: 0.4s;
+}
+:hover.project-card {
+  transform: scale(1.1);
+}
+
+:hover.skill-circle {
+  transform: scale(1.2);
+}
+.skill-circle {
+  transition-duration: 0.4s;
+}
+
+.Skill-box:hover {
+  background: linear-gradient(to bottom right, #1117d41b, #03b4f435);
+}
+:hover.footer{
+  background: linear-gradient(to bottom right, #1117d41b, #03b4f435);
+}
