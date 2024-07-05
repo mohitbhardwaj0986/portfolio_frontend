@@ -23,7 +23,7 @@ const MouseFollower = () => {
 
   return (
     <motion.div
-      className="mousemove fixed top-0 duration-200 ease-linear left-0 w-10 h-10 bg-blue-500  rounded-full pointer-events-none"
+      className="mousemove fixed top-0 opacity-0 sm:opacity-100 duration-200 ease-linear left-0 w-10 h-10 bg-blue-500  rounded-full pointer-events-none"
       style={{ x, y }}
     />
   );
