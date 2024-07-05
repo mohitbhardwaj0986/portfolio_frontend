@@ -15,13 +15,13 @@ function NotFound() {
           src={notfound}
           alt=""
         />
-        <div className="absolute -top-[-70%] -right-[-45%] text-3xl text-center "> 
-        <h1>page not found</h1>
-            <h1>404</h1>
+        <div className="  text-xl sm:text-3xl relative text-center z-10 -mt-56"> 
+        <h1 className="text-center">page not found</h1>
+            <h1 className="text-center">404</h1>
             <button
 type='button'
 onClick={()=>navigate("/")}
-    className="submit absolute right-6 top-10 px-3 text-xl mt-10 mr-11  text-white py-2 rounded  focus:outline-none focus:ring-2  focus:ring-opacity-50"
+    className="submit  px-4 sm:text-xl absolute top-0 left-[40%] sm:left-[47%]  mt-20 text-sm  text-white py-1 rounded  focus:outline-none focus:ring-2  focus:ring-opacity-50"
   >
    Back
   </button>

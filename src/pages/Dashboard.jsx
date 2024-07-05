@@ -18,8 +18,8 @@ function Dashboard() {
       <LogoutBtn/>
         
 
-      <h1 className="text-center mt-20 mb-10 text-3xl font-semibold">Hello admine</h1>
-      <div className=" flex gap-5 mt-5">
+      <h1 className="text-center mt-20 mb-10 text-3xl font-semibold">Hello admin!</h1>
+      <div className=" flex gap-5 px-5 mt-5">
         <button onClick={()=>navigate("/")} className="submit px-3  text-white py-2 rounded  focus:outline-none focus:ring-2  ">
         Home
         </button>
